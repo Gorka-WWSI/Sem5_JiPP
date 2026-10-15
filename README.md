@@ -10,3 +10,5 @@ Logika samej gry jest programowana przy użyciu platformy MakeCode. Aplikacja we
 
   # Wizualizacja tablicy liderów
 Wszystkie rezultaty zapisane w bazie zasilają główną, globalną tablicę wyników dostępną na żywo na stronie internetowej. Oprócz tego mikrokontroler posiada funkcję lokalnego informowania o najlepszych – po każdej zakończonej partii strona odsyła przez USB aktualny ranking, a na wbudowanej matrycy LED przewijają się pseudonimy trzech topowych graczy.
+  #Krotki Schemat
+  micro:bit (gra + LED) <--USB--> Przeglądarka (Web Serial API) <---> Next.js <---> PostgreSQL (Supabase)
